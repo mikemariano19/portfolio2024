@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply 
+    text-lg 
+    border-[1.5px] 
+    border-color-2 
+    rounded-full 
+    p-2 
+    px-8 
+    cursor-pointer
+    ease-out duration-300
+  }
