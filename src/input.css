@@ -4,14 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-    @apply 
-    text-lg 
-    border-[1.5px] 
-    border-color-2 
-    rounded-full 
-    p-2 
-    px-8 
-    cursor-pointer
-    ease-out duration-300
-  }
+@layer components {
+
+  .btn {
+      @apply 
+      text-lg
+      border-[1.5px] 
+      border-color-2 
+      rounded-full 
+      p-2 
+      px-8 
+      cursor-pointer
+      
+    }
+
+  .btn:hover {
+    @apply
+      bg-color-2 duration-300 font-medium text-custom-bg-1 
+
+    }
+
+
+}
