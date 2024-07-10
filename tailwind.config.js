@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  content: ["./**/*.{html,js}"],
+  content: [
+    "./src/*.{html,js}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        body: ['Roboto-Slab', 'sans-serif']
+        roboto: ['Roboto-Slab', 'sans-serif'],
       },
       colors: {
         'custom-bg-1': '#2C2D32',

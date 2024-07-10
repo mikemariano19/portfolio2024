@@ -20,7 +20,7 @@
 
   .btn:hover {
     @apply
-      bg-color-2 duration-300 font-medium text-custom-bg-1 
+      bg-color-2 duration-300 text-custom-bg-1
 
     }
 
