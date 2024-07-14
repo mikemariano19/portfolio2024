@@ -10,26 +10,28 @@
     
 <main class="bg-custom-bg-1">
   <div class="mx-2 lg:mx-0">
-    <div class="text-lg text-color-1 flex justify-between max-w-[835px] mx-auto py-4">
-      <h2 class="my-auto">MIKE MARIANO</h2>
-      <div class="hidden md:flex">
-        <span class="mr-2">Home</span>
-        <span class="mr-2">About</span>
-        <span class="mr-2">Project</span>
-        <span>Contact</span>
-      </div>
-
+    <div class="text-lg text-color-1 flex justify-between max-w-[835px] sticky top-0 py-2">
+      <h2 class="my-auto text-color-2 font-medium tracking-wider">MIKE MARIANO</h2>
       <!-- dropdown button -->
-      <button id="dropdown" class="md:hidden border-color-2 border-[1.5px] rounded-md my-auto">
+      <button id="dropdown" class="md:hidden border-color-2 border-[1.5px] rounded-md">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </button>
-    </div>
+      <!-- nav -->
+      <div class="hidden md:flex py-2">
+        <span class="mr-2 nav">Home</span>
+        <span class="mr-2 nav">About</span>
+        <span class="mr-2 nav">Project</span>
+        <span class="nav">Contact</span>
+      </div>
 
+    </div>
+    
+    
     <!-- dropdown menu -->
-    <div class="text-lg z-50 fixed top-0 md:hidden  w-full">
-      <div class="mt-16 hidden" id="menu">
+    <div class="text-lg fixed top-12 md:hidden w-full">
+      <div class="hidden" id="menu">
         <a href="#">
           <p class="border-b-color-2 border-b">Home</p>
         </a>
@@ -49,7 +51,7 @@
       <div class="self-center text-center">
         <h1 class="text-5xl text-custom-text-2">I'm Mike, a <span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
           <p class="text-xl font-semibold">I’m passionate about creating engaging and user-friendly web experiences.</p>
-          <button class="btn mt-10">CONTACT ME</button>
+          <button class="btn mt-8">CONTACT ME</button>
         </h1>
       </div>
     </div>
