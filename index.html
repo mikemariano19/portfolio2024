@@ -11,7 +11,7 @@
 <main class="bg-custom-bg-1">
   <div class="mx-2 lg:mx-0">
     <div class="bg-red-500 w-full">
-      <nav class="text-lg text-color-1 border-color-2 border-b-2 flex justify-between max-w-[835px] fixed top-0 inset-x-0 mx-auto">
+      <nav id="navbar" class="text-lg text-color-1 bg-custom-bg-1 shadow-lg py-2 flex justify-between max-w-[768px] fixed top-0 inset-x-0 mx-2 md:mx-auto">
         <h2 class="my-auto text-color-2 font-medium tracking-wider">MIKE MARIANO</h2>
         <!-- dropdown button -->
         <button id="dropdown" class="md:hidden border-color-2 border-[1.5px] rounded-md">
@@ -22,8 +22,8 @@
         <!-- nav -->
         <div class="hidden md:flex py-2">
           <a href="#home" class="mr-2 nav">Home</a>
-          <a href="#about" class="mr-2 nav">About</a>
           <a href="#projects" class="mr-2 nav">Projects</a>
+          <a href="#about" class="mr-2 nav">About</a>
           <a href="#contact" class=" nav">Contact</a>
         </div>
       </nav>
@@ -36,11 +36,11 @@
         <a href="#">
           <p class="border-b-color-2 border-b">Home</p>
         </a>
-        <a href="#">
-          <p class="border-b-color-2 border-b">About</p>
-        </a>
         <a href="#projects">
           <p class="border-b-color-2 border-b">Project</p>
+        </a>
+        <a href="#">
+          <p class="border-b-color-2 border-b">About</p>
         </a>
         <a href="#">
           <p class="border-b-color-2 border-b">Contact</p>
@@ -48,9 +48,9 @@
       </div>
     </div>
     
-    <div id="home" class="flex justify-center max-w-[835px] h-screen mx-auto py-auto">
+    <div id="home" class="flex justify-center max-w-[768px] h-screen mx-auto py-auto">
       <div class="self-center text-center">
-        <h1 class="text-5xl text-custom-text-2">I'm Mike, a <span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
+        <h1 class="text-5xl text-custom-text-2">Hi! I'm Mike, a <br><span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
           <p class="text-xl font-semibold">I’m passionate about creating engaging and user-friendly web experiences.</p>
           <button class="btn mt-8">CONTACT ME</button>
         </h1>
@@ -60,21 +60,80 @@
 </main>
 
 <!-- PROJECTS -->
-<section id="projects" class="bg-custom-bg-2 h-screen text-center text-2xl font-medium scroll-mt-10 md:scroll-mt-20">
-  <div class=" max-w-[835px] mx-auto">
-    <h1 class="text-4xl font-semibold py-2">PROJECTS</h1>
-    <div>
-      <h2 class="text-color-2 text-4xl font-semibold">Yelpcamp</h2>
-      <img src="" alt="">
-      <p>
-        YelpCamp challenge from Codewell. Codewell's aim is to provide you with real-world design covers everything from HTML to Advanced JS.
-      </p>
-      <p>TailwindCSS, JavaScript</p>
-      <div>
-        <button class="btn mt-8 mr-2">DEMO</button>
-        <button class="text-lg hover:text-color-2">CODE</button>
+<section id="projects" class="bg-custom-bg-2 h-4/5 mx-auto text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+  <div class="max-w-[768px] mx-auto">
+    <h1 class="text-4xl font-semibold py-8">PROJECTS</h1>
+    <!-- yelpcamp -->
+      <div class="md:flex">
+        <div class="flex justify-center mb-2 md:mb-0">
+          <img src="./src/images/image1.png" alt="" class="rounded-xl">
+        </div>
+        <div class="max-w-80 md:max-w-[26rem] md:ml-8 mx-auto text-left ">
+          <h2 class="text-color-2 text-4xl font-semibold mb-2">Yelpcamp</h2>
+          <p>
+            YelpCamp challenge from Codewell. Codewell's aim is to provide you with real-world design covers everything from HTML to Advanced JS.
+          </p>
+          <p class="py-4">TailwindCSS, JavaScript</p>
+          <div class="">
+            <button class="btn mr-2">DEMO</button>
+            <button class="text-lg hover:text-color-2">CODE</button>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <!-- yelpcamp -->
+      <div class="md:flex pt-12">
+        <div class="flex justify-center mb-2 md:mb-0">
+          <img src="./src/images/image1.png" alt="" class="rounded-xl">
+        </div>
+        <div class="max-w-80 md:max-w-[26rem] md:ml-8 mx-auto text-left ">
+          <h2 class="text-color-2 text-4xl font-semibold mb-2">Yelpcamp</h2>
+          <p>
+            YelpCamp challenge from Codewell. Codewell's aim is to provide you with real-world design covers everything from HTML to Advanced JS.
+          </p>
+          <p class="py-4">TailwindCSS, JavaScript</p>
+          <div class="">
+            <button class="btn mr-2">DEMO</button>
+            <button class="text-lg hover:text-color-2">CODE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- yelpcamp -->
+      <div class="md:flex pt-12">
+        <div class="flex justify-center mb-2 md:mb-0">
+          <img src="./src/images/image1.png" alt="" class="rounded-xl">
+        </div>
+        <div class="max-w-80 md:max-w-[26rem] md:ml-8 mx-auto text-left ">
+          <h2 class="text-color-2 text-4xl font-semibold mb-2">Yelpcamp</h2>
+          <p>
+            YelpCamp challenge from Codewell. Codewell's aim is to provide you with real-world design covers everything from HTML to Advanced JS.
+          </p>
+          <p class="py-4">TailwindCSS, JavaScript</p>
+          <div class="">
+            <button class="btn mr-2">DEMO</button>
+            <button class="text-lg hover:text-color-2">CODE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- yelpcamp -->
+      <div class="md:flex pt-12">
+        <div class="flex justify-center mb-2 md:mb-0">
+          <img src="./src/images/image1.png" alt="" class="rounded-xl">
+        </div>
+        <div class="max-w-80 md:max-w-[26rem] md:ml-8 mx-auto text-left ">
+          <h2 class="text-color-2 text-4xl font-semibold mb-2">Yelpcamp</h2>
+          <p>
+            YelpCamp challenge from Codewell. Codewell's aim is to provide you with real-world design covers everything from HTML to Advanced JS.
+          </p>
+          <p class="py-4">TailwindCSS, JavaScript</p>
+          <div class="">
+            <button class="btn mr-2">DEMO</button>
+            <button class="text-lg hover:text-color-2">CODE</button>
+          </div>
+        </div>
+      </div>
   </div>
 </section>
 

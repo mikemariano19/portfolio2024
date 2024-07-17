@@ -36,5 +36,15 @@
       
     }
 
+    .hidden-nav {
+      transform: translateY(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .shown-nav {
+        transform: translateY(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
 
 }
