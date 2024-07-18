@@ -1141,10 +1141,6 @@ video {
   scroll-snap-stop: always;
 }
 
-.scroll-mt-8{
-  scroll-margin-top: 2rem;
-}
-
 .scroll-mt-0{
   scroll-margin-top: 0px;
 }
@@ -1880,10 +1876,6 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-b-2{
-  border-bottom-width: 2px;
-}
-
 .border-e{
   border-inline-end-width: 1px;
 }
@@ -2087,8 +2079,8 @@ video {
   padding-top: 3rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-left{
@@ -2746,20 +2738,8 @@ video {
     max-width: 26rem;
   }
 
-  .md\:scroll-mt-20{
-    scroll-margin-top: 5rem;
-  }
-
   .md\:scroll-mt-0{
     scroll-margin-top: 0px;
-  }
-
-  .md\:scroll-mt-4{
-    scroll-margin-top: 1rem;
-  }
-
-  .md\:scroll-mt-2{
-    scroll-margin-top: 0.5rem;
   }
 }
 
