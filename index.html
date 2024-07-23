@@ -11,7 +11,7 @@
 <main class="bg-custom-bg-1">
     <div class="bg-red-500 w-full">
       <nav id="navbar" class="text-lg text-color-1 bg-custom-bg-1 shadow-lg py-2 flex justify-between max-w-[768px] fixed top-0 inset-x-0 px-2 md:mx-auto">
-        <h2 class="my-auto text-color-2 font-medium tracking-wider">MIKE MARIANO</h2>
+        <h2 class="my-auto text-color-2 font-medium tracking-wider"><a href="#home">MIKE MARIANO</a></h2>
         <!-- dropdown button -->
         <button id="dropdown" class="md:hidden border-color-2 border-[1.5px] rounded-md">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
@@ -51,7 +51,7 @@
       <div class="self-center text-center">
         <h1 class="text-5xl text-custom-text-2">Hi! I'm Mike, a <br><span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
           <p class="text-xl font-semibold">I’m passionate about creating engaging and user-friendly web experiences.</p>
-          <button class="btn mt-8">CONTACT ME</button>
+          <button class="btn mt-8"><a href="#contact">CONTACT ME</a></button>
         </h1>
       </div>
     </div>
@@ -136,37 +136,59 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="bg-custom-bg-1 py-8  mx-auto text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
-  <div class="max-w-[768px] mx-auto py-auto lg:px-0">
+<section id="about" class="bg-custom-bg-1 py-8 text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+  <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto">
     <h1 class="text-4xl font-semibold pb-8">ABOUT</h1>
-    <div class="max-w-[350px] sm:max-w-[768px] h-screen mx-auto text-left">
-      <p class="">
-        I'm <span class="text-color-2">MICHAEL LOUIE MARIANO</span>, a passionate front-end developer with a love for creating beautiful and functional web experiences.
-        I thrive on turning ideas into reality through clean, efficient code and intuitive design.
-      </p>
-      <p class="py-4">
-        Here are the technologies that I’m currently using to build things:
-      </p>
-      <div class="px-0 list-disc flex justify-between">
-        <div class="list-disc w-1/2">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Bootstrap</li>
-          <li>TailwindCSS</li>
-          <li>Git</li>
-        </div>
-        <div class="list-disc w-1/2">
-          <li>ReactJS</li>
-          <li>ExpressJS</li>
-          <li>NodeJS</li>
-          <li>MongoDB</li>
-          <li>MaterialUI</li>
-          <li>Figma</li>
+    <div class="flex items-center h-4/5">
+      <div class="max-w-[350px] sm:max-w-[768px] mx-auto text-left">
+        <p>
+          I'm <span class="text-color-2">MICHAEL LOUIE MARIANO</span>, a passionate front-end developer with a love for creating beautiful and functional web experiences.
+          I thrive on turning ideas into reality through clean, efficient code and intuitive design.
+        </p>
+        <p class="py-4">
+          Here are the technologies that I’m currently using to build things:
+        </p>
+        <div class="px-0 list-disc flex justify-between">
+          <div class="list-disc w-1/2">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>TailwindCSS</li>
+            <li>Git</li>
+          </div>
+          <div class="list-disc w-1/2 pl-4 md:pl-0">
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+            <li>MaterialUI</li>
+            <li>Figma</li>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+  <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto pb-8 ">
+    <h1 class="text-4xl font-semibold py-8">CONTACT</h1>
+    <div class="text-start flex h-screen items-center">
+      <div>
+        <div>
+          <p>Start conversation</p>
+          <button class="btn mr-2"><a href="">Message me here</a></button>
+        </div>
+        <div class="pt-8">
+          <p>Want to hire me? Here's my resume</p>
+          <button class="btn mr-8"><a href="">Download Resume</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+      
 </section>
 
 
