@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link href="src/output.css" rel="stylesheet">
   <title>Mike Mariano</title>
 </head>
@@ -51,8 +54,18 @@
       <div class="self-center text-center">
         <h1 class="text-5xl text-custom-text-2">Hi! I'm Mike, a <br><span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
           <p class="text-xl font-semibold">I’m passionate about creating engaging and user-friendly web experiences.</p>
-          <button class="btn mt-8"><a href="#contact">CONTACT ME</a></button>
+          <button class="btn my-4"><a href="#contact">CONTACT ME</a></button>
         </h1>
+        <button class="border border-color-2 p-2 rounded-full">
+          <a href="https://www.linkedin.com/in/mikemarianodev/" target="_blank">
+            <img src="./src/icons/LinkedIn.svg" alt="">
+          </a>
+        </button>
+        <button class="border border-color-2 p-2 rounded-full">
+          <a href="https://github.com/mikemariano19" target="_blank">
+            <img src="./src/icons/GitHub (1).svg" alt="">
+          </a>
+        </button>
       </div>
     </div>
 </main>
@@ -136,41 +149,71 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="bg-custom-bg-1 text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+<section id="about" class="bg-custom-bg-1 h-screen text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
   <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto">
-    <div class="flex items-center h-4/5 py-8">
-      <div class="max-w-[350px] sm:max-w-[768px] mx-auto text-left">
+    <div class="flex items-center justify-center h-screen">
+      <div class="bg-red-500 h-screen py-auto mx-auto max-w-[350px] sm:max-w-[768px] text-left">
         <h1 class="text-4xl font-semibold pb-8 flex justify-center">ABOUT</h1>
-        <p>
-          I'm <span class="text-color-2">MICHAEL LOUIE MARIANO</span>, a passionate front-end developer with a love for creating beautiful and functional web experiences.
-          I thrive on turning ideas into reality through clean, efficient code and intuitive design.
-        </p>
-        <p class="py-4">
-          Here are the technologies that I’m currently using to build things:
-        </p>
-        <div class="px-0 list-disc flex justify-between">
-          <div class="list-disc w-1/2">
-            <div class="bg-gray-100/40 rounded-lg w-16 h-16 p-1">
-              <img src="./src/icons/html.svg" alt="">
+        <div class="py-auto">
+          <p>
+            I'm <span class="text-color-2">MICHAEL LOUIE MARIANO</span>, a passionate front-end developer with a love for creating beautiful and functional web experiences.
+            I thrive on turning ideas into reality through clean, efficient code and intuitive design.
+          </p>
+          <p class="py-4">
+            Here are the tech/tools that I’m currently using to build things:
+          </p>
+          <!-- icons -->
+          <div class=" shadow-lg rounded-lg px-0 list-disc flex justify-between">
+            <div class="grid grid-cols-3 sm:grid-cols-6 gap-1 md:gap-2 text-sm font-semibold text-custom-bg-2">
+              <div class="card">
+                <img src="./src/icons/html.svg" alt="">
+                <p>HTML</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/css.svg" alt="">
+                <p>CSS</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/javascript.svg" alt="">
+                <p>JavaScript</p>
+              </div> 
+              <div class="card">
+                <img src="./src/icons/bootstrap.svg" alt="">
+                <p>Bootstrap</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/tailwind-css.svg" alt="">
+                <p>TailwindCSS</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/github.svg" alt="">
+                <p>GITHUB</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/figma.svg" alt="">
+                <p>FIGMA</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/postman.svg" alt="">
+                <p>POSTMAN</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/react.svg" alt="">
+                <p>REACTJS</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/Node.js.svg" alt="">
+                <p>NODEJS</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/Express.svg" alt="">
+                <p>Expressjs</p>
+              </div>
+              <div class="card">
+                <img src="./src/icons/MongoDB.svg" alt="">
+                <p>MongoDB</p>
+              </div>
             </div>
-            <div class="bg-gray-100/40 rounded-lg w-16 h-16">
-              <img src="./src/icons/github.svg" alt="">
-            </div>
-            <div class="bg-gray-100/40 rounded-lg w-16 h-16">
-              <img src="./src/icons/javascript.svg" alt="">
-            </div>
-            <div class="bg-gray-50 rounded-lg w-16 h-16">
-              <img src="./src/icons/github.svg" alt="">
-            </div>
-            <li>Postman</li>
-          </div>
-          <div class="list-disc w-1/2 pl-4 md:pl-0">
-            <li>ReactJS</li>
-            <li>ExpressJS</li>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>MaterialUI</li>
-            <li>Figma</li>
           </div>
         </div>
       </div>
