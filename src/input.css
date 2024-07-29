@@ -48,15 +48,14 @@
 
     .card{
       @apply
-      bg-color-1 
+      bg-color-1
       text-center 
       p-2 
       rounded-lg 
       shadow-2xl 
-      shadow-custom-bg-1 
+      shadow-custom-bg-2
       w-[100px] 
-      h-[120px] 
-      m-2
+      h-[120px]
     }
 
 
