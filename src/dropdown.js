@@ -21,9 +21,13 @@
                 if (scrollTop > lastScrollTop) {
                     navbar.classList.add('hidden-nav');
                     navbar.classList.remove('shown-nav');
+                    menu.classList.add('hidden-nav');
+                    menu.classList.remove('shown-nav');
                 } else {
                     navbar.classList.add('shown-nav');
                     navbar.classList.remove('hidden-nav');
+                    menu.classList.add('shown-nav');
+                    menu.classList.remove('hidden-nav');
                 }
                 lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
             });

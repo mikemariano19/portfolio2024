@@ -37,7 +37,7 @@
     }
 
     .hidden-nav {
-      transform: translateY(-100%);
+      transform: translateY(-250%);
       transition: transform 0.3s ease-in-out;
     }
     
@@ -58,5 +58,6 @@
       h-[120px]
     }
 
+  
 
 }

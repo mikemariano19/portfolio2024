@@ -33,8 +33,8 @@
     
     
     <!-- dropdown menu -->
-    <div class="text-lg bg-custom-bg-1 fixed top-12 md:hidden w-full">
-      <div class="hidden" id="menu">
+    <div class="text-lg fixed top-12 md:hidden w-full">
+      <div class="hidden bg-custom-bg-1" id="menu">
         <a href="#">
           <p class="border-b-color-2 border-b pl-2">Home</p>
         </a>
@@ -71,7 +71,7 @@
 </main>
 
 <!-- PROJECTS -->
-<section id="projects" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+<section id="projects" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0">
   <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto pb-8 ">
     <h1 class="text-4xl font-semibold py-8">PROJECTS</h1>
     <!-- yelpcamp -->
@@ -149,7 +149,7 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="bg-custom-bg-1 py-4 sm:py-0 h-11/12 sm:h-screen flex items-center text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
+<section id="about" class="bg-custom-bg-1 py-4 sm:py-0 h-11/12 sm:h-screen flex items-center text-center text-2xl font-medium scroll-mt-0">
   <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto">
     <div class="flex items-center justify-center">
       <div class="py-auto mx-auto max-w-[350px] sm:max-w-[768px] text-left">
@@ -222,24 +222,34 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="bg-red-500 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0 md:scroll-mt-0">
-  <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto pb-8 ">
+<section id="contact" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0">
+  <div class="max-w-[375px] mx-3 sm:mx-auto pb-8 ">
     <div class="text-start flex h-screen justify-center items-center">
-      <div>
-        <h1 class="text-4xl font-semibold py-8 flex justify-center">CONTACT</h1>
-        <div>
-          <p>Start conversation</p>
-          <button class="btn mr-2"><a href="">Message me here</a></button>
+        <div class="text-center w-full">
+          <h1 class="text-4xl font-semibold py-8 flex justify-center">CONTACT</h1>
+        <!-- modify this form HTML and place wherever you want your form -->
+          <div class="text-sm text-start text-custom-bg-1 bg-white p-10 rounded-md">
+            <form action="https://formspree.io/f/xyzgwkwv" method="POST" class="text-sm">
+              <label class="mr-4 font-semibold">
+                Email:
+              </label>
+              <input type="email" name="email" maxlength="45" placeholder="youremail@gmail.com" class="border border-gray-400 rounded-md mb-4 w-full h-10 p-2"><br>
+              <label class="mr-4 font-semibold">
+                Message:
+              </label>
+              <textarea name="message" placeholder="Your message here" class="border border-gray-400 max-h-[150px] rounded-md w-full p-2"></textarea><br>
+              <!-- your other form fields go here -->
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
         </div>
-        <div class="pt-8">
-          <p>Want to hire me? Here's my resume</p>
-          <button class="btn mr-8"><a href="">Download Resume</a></button>
-        </div>
-      </div>
     </div>
   </div>
-      
 </section>
+
+<footer class="bg-custom-bg-1 h-1/5">
+  mikemariano19
+</footer>
 
 
 
