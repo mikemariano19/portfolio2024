@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -56,6 +56,14 @@
       shadow-custom-bg-2
       w-[100px] 
       h-[120px]
+    }
+
+    .send{
+      @apply
+      bg-color-2
+      p-2 rounded-lg shadow-md
+      text-custom-bg-2 font-semibold
+      w-24
     }
 
   

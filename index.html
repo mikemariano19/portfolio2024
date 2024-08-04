@@ -63,7 +63,7 @@
         </button>
         <button class="border border-color-2 p-2 rounded-full">
           <a href="https://github.com/mikemariano19" target="_blank">
-            <img src="./src/icons/GitHub (1).svg" alt="">
+            <img src="./src/icons/GitHubIcon.svg" alt="">
           </a>
         </button>
       </div>
@@ -222,34 +222,48 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0">
-  <div class="max-w-[375px] mx-3 sm:mx-auto pb-8 ">
+<section id="contact" class="bg-custom-bg-2 h-4/5 mx-auto text-center text-2xl font-medium scroll-mt-0">
+  <div class="max-w-[360px] mx-auto pb-8 ">
     <div class="text-start flex h-screen justify-center items-center">
         <div class="text-center w-full">
           <h1 class="text-4xl font-semibold py-8 flex justify-center">CONTACT</h1>
         <!-- modify this form HTML and place wherever you want your form -->
           <div class="text-sm text-start text-custom-bg-1 bg-white p-10 rounded-md">
-            <form action="https://formspree.io/f/xyzgwkwv" method="POST" class="text-sm">
+            <form action="https://formspree.io/f/meojgkyn" id="contactForm" method="POST" class="text-sm">
               <label class="mr-4 font-semibold">
                 Email:
               </label>
-              <input type="email" name="email" maxlength="45" placeholder="youremail@gmail.com" class="border border-gray-400 rounded-md mb-4 w-full h-10 p-2"><br>
+              <input type="email" id="email" name="email" maxlength="45" placeholder="youremail@gmail.com" class="border border-gray-400 rounded-md mb-4 w-full h-10 p-2"><br>
               <label class="mr-4 font-semibold">
                 Message:
               </label>
-              <textarea name="message" placeholder="Your message here" class="border border-gray-400 max-h-[150px] rounded-md w-full p-2"></textarea><br>
-              <!-- your other form fields go here -->
-              <button type="submit" class="btn">Send</button>
+              <textarea id="message" name="message" placeholder="Your message here." class="border border-gray-400 max-h-[150px] rounded-md w-full p-2"></textarea><br>
+              <div class="flex justify-end">
+                <button id="sendBtn" type="submit" class="send">Send</button>
+              </div>
             </form>
           </div>
         </div>
     </div>
   </div>
+  <footer class="bg-[#445760] py-10 text-sm">
+    <h1 class="text-xl font-semibold">FRONT-END DEVELOPER</h1>
+    <p class="font-extralight tracking-widest">Crafting Digital Experiences</p>
+    <div class="">
+      <button class="">
+        <a href="https://www.linkedin.com/in/mikemarianodev/" target="_blank">
+          <img src="./src/icons/LinkedInFooter.svg" alt="">
+        </a>
+      </button>
+      <button class="">
+        <a href="https://github.com/mikemariano19" target="_blank">
+          <img src="./src/icons/GitHubFooter.svg" alt="">
+        </a>
+      </button>
+    </div>
+  </footer>
 </section>
 
-<footer class="bg-custom-bg-1 h-1/5">
-  mikemariano19
-</footer>
 
 
 

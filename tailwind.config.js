@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['Roboto-Slab', 'sans-serif'],
+        roboto: ['montserrat'],
       },
       colors: {
         'custom-bg-1': '#2C2D32',
