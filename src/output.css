@@ -627,6 +627,7 @@ video {
   border-color: rgb(229 169 74 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(229 169 74 / var(--tw-text-opacity));
+  transition-delay: 700ms;
 }
 
 .hidden-nav {
@@ -991,6 +992,10 @@ video {
   max-width: 360px;
 }
 
+.max-w-\[750px\]{
+  max-width: 750px;
+}
+
 .max-w-\[768px\]{
   max-width: 768px;
 }
@@ -1192,6 +1197,10 @@ video {
 
 .scroll-mt-0{
   scroll-margin-top: 0px;
+}
+
+.scroll-mt-10{
+  scroll-margin-top: 2.5rem;
 }
 
 .list-inside{
@@ -2882,6 +2891,10 @@ video {
 
   .md\:max-w-\[26rem\]{
     max-width: 26rem;
+  }
+
+  .md\:max-w-\[750px\]{
+    max-width: 750px;
   }
 
   .md\:px-4{

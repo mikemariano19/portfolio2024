@@ -7,14 +7,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link href="src/output.css" rel="stylesheet">
+  <link rel="icon" href="./src/icons/coding.svg">
   <title>Mike Mariano</title>
 </head>
 <body class="text-color-1 font-roboto">
     
 <main class="bg-custom-bg-1">
-    <div class="bg-red-500 w-full">
-      <nav id="navbar" class="text-lg text-color-1 bg-custom-bg-1 shadow-lg py-2 flex justify-between max-w-[768px] md:px-4 fixed top-0 inset-x-0 px-2 md:mx-auto">
-        <!-- <h2 class="my-auto text-color-2 font-medium tracking-wider"><a href="#home"></a></h2> -->
+    <div class="bg-red-500">
+      <nav id="navbar" class="text-lg text-color-1 bg-custom-bg-1 shadow-lg py-2 md:px-4 fixed top-0 inset-x-0 px-2">
+       <div class="flex justify-between max-w-[750px] md:mx-auto">
+         <!-- <h2 class="my-auto text-color-2 font-medium tracking-wider"><a href="#home"></a></h2> -->
          <button>
           <a href="#home">
             <img src="./src/icons/coding.svg" alt="">
@@ -33,6 +35,7 @@
           <a href="#about" class="mr-2 nav">About</a>
           <a href="#contact" class=" nav">Contact</a>
         </div>
+       </div>
       </nav>
     </div>
     
@@ -55,9 +58,9 @@
       </div>
     </div>
     
-    <div id="home" class="flex justify-center max-w-[768px] h-screen mx-auto py-auto">
+    <div id="home" class="flex justify-center max-w-[350px] md:max-w-[750px] h-screen mx-auto py-auto">
       <div class="self-center text-center">
-        <h1 class="text-5xl text-custom-text-2">Hi! I'm Mike, a <br><span class="text-color-2 font-semibold">FRONT-END DEVELOPER</span>
+        <h1 class="text-5xl text-custom-text-2">Hi! I'm Mike, a <br><p class="text-color-2 font-semibold">FRONT-END DEVELOPER</p>
           <p class="text-xl font-semibold">I’m passionate about creating engaging and user-friendly web experiences.</p>
           <button class="btn my-4"><a href="#contact">CONTACT ME</a></button>
         </h1>
@@ -76,7 +79,7 @@
 </main>
 
 <!-- PROJECTS -->
-<section id="projects" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-0">
+<section id="projects" class="bg-custom-bg-2 h-4/5 md:mx-auto text-center text-2xl font-medium scroll-mt-10">
   <div class="max-w-[768px] md:px-4 lg:px-0 mx-auto pb-8 ">
     <h1 class="text-4xl font-semibold py-8">PROJECTS</h1>
 
@@ -267,6 +270,6 @@
 
 
 
-<script src="./src/dropdown.js"></script>
+<script src="./src/navbar.js"></script>
 </body>
 </html>

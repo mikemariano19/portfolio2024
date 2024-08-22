@@ -32,8 +32,8 @@
       @apply
      text-color-2
       cursor-pointer
+      delay-700
       transform border-b-2 border-color-2 border-spacing-0
-      
     }
 
     .hidden-nav {
