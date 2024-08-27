@@ -627,7 +627,6 @@ video {
   border-color: rgb(229 169 74 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(229 169 74 / var(--tw-text-opacity));
-  transition-delay: 700ms;
 }
 
 .hidden-nav {
